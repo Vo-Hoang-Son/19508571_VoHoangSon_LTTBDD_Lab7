@@ -19,7 +19,7 @@
         android:drawableLeft="@drawable/vector"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Put name to add"
+        android:hint="Put name to add"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

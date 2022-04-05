@@ -9,7 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".Basic_Sqlite_Main">
+        <!-- run cau b-->
+        <!--<activity
+            android:name=".UpdateName"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityB"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+        <!-- run cau a-->
+        <activity
+            android:name=".Basic_Sqlite_Main"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
